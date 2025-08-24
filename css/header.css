@@ -1,0 +1,33 @@
+.header {
+    background-color: var(--color-4);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 8px 16px;
+}
+
+.container-image {
+    width: 60px;
+    height: 60px;
+}
+
+.header-logo {
+    width: 100%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 8px;
+}
+
+.header-nav-item {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}

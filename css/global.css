@@ -1,0 +1,21 @@
+:root {
+    --color-1: #CCF5F4;
+    --color-2: #0F4E4C;
+    --color-3: #051A19;
+    --color-4: #6F27BE;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

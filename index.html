@@ -1,13 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Cards</title>
+
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/cards.css">
 </head>
 <body>
-    <header>
-        <nav></nav>
+    <header class="header">
+        <div class="container-image">
+            <img src="./images/logo.png" alt="logo" class="header-logo">
+        </div>
+
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-item">Notas Violino</li>
+                <li class="header-nav-item">Notas Partitura</li>
+            </ul>
+        </nav>
     </header>
+
+    <section class="cards">
+        <div class="card">
+            <div class="card-question">
+                <h1 class="card-question-title">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+                <img class="card-question-image" src="./images/example.jpg" />
+            </div>
+
+            <hr class="card-divisor">
+
+            <div class="card-answer">
+                <label class="card-answer-label" for="card-answer-input">Digite sua resposta</label>
+                <input id="card-answer-input" type="text" class="card-answer-input"/>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
